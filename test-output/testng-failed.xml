@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [pomexample]">
+  <test thread-count="5" name="Amazonpomexample(failed)">
+    <classes>
+      <class name="com.amazon.qa.testcases.YourAmazonPageTest">
+        <methods>
+          <include name="verifyUsernameLabelTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.YourAmazonPageTest -->
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyAmazonTitleTest"/>
+        </methods>
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Amazonpomexample(failed) -->
+</suite> <!-- Failed suite [pomexample] -->

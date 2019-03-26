@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="pomexample" duration-ms="743533" started-at="2019-03-26T13:45:05Z" finished-at="2019-03-26T13:57:29Z">
+    <groups>
+    </groups>
+    <test name="Amazonpomexample" duration-ms="743533" started-at="2019-03-26T13:45:05Z" finished-at="2019-03-26T13:57:29Z">
+      <class name="com.amazon.qa.testcases.SignInPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.SignInPageTest@2f686d1f]" name="setup" is-config="true" duration-ms="124435" started-at="2019-03-26T13:54:01Z" finished-at="2019-03-26T13:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySignInPageTitle()[pri:1, instance:com.amazon.qa.testcases.SignInPageTest@2f686d1f]" name="verifySignInPageTitle" duration-ms="11" started-at="2019-03-26T13:56:06Z" finished-at="2019-03-26T13:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.SignInPageTest@2f686d1f]" name="tearDown" is-config="true" duration-ms="59" started-at="2019-03-26T13:56:06Z" finished-at="2019-03-26T13:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.testcases.SignInPageTest -->
+      <class name="com.amazon.qa.testcases.YourAmazonPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.YourAmazonPageTest@73ad2d6]" name="setup" is-config="true" duration-ms="63591" started-at="2019-03-26T13:45:05Z" finished-at="2019-03-26T13:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUsernameLabelTest()[pri:0, instance:com.amazon.qa.testcases.YourAmazonPageTest@73ad2d6]" name="verifyUsernameLabelTest" duration-ms="2355" started-at="2019-03-26T13:46:09Z" finished-at="2019-03-26T13:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsernameLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.YourAmazonPageTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="59" started-at="2019-03-26T13:46:11Z" finished-at="2019-03-26T13:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.testcases.YourAmazonPageTest -->
+      <class name="com.amazon.qa.testcases.NewRegistrationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="setup" is-config="true" duration-ms="137671" started-at="2019-03-26T13:46:16Z" finished-at="2019-03-26T13:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NewRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="NewRegistrationTest" duration-ms="839" started-at="2019-03-26T13:48:34Z" data-provider="getAmazonTestData" finished-at="2019-03-26T13:48:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.999999999E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ind@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123ghj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-26T13:48:34Z" finished-at="2019-03-26T13:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="setup" is-config="true" duration-ms="74489" started-at="2019-03-26T13:48:34Z" finished-at="2019-03-26T13:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NewRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="NewRegistrationTest" duration-ms="928" started-at="2019-03-26T13:49:49Z" data-provider="getAmazonTestData" finished-at="2019-03-26T13:49:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jio]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.888888888E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[indu@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8inkmhy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-03-26T13:49:50Z" finished-at="2019-03-26T13:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="setup" is-config="true" duration-ms="81336" started-at="2019-03-26T13:49:50Z" finished-at="2019-03-26T13:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NewRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="NewRegistrationTest" duration-ms="1062" started-at="2019-03-26T13:51:11Z" data-provider="getAmazonTestData" finished-at="2019-03-26T13:51:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[idea]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.999998888E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[uilhljh@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[iuj879k]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-26T13:51:12Z" finished-at="2019-03-26T13:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="setup" is-config="true" duration-ms="168263" started-at="2019-03-26T13:51:12Z" finished-at="2019-03-26T13:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NewRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="NewRegistrationTest" duration-ms="790" started-at="2019-03-26T13:54:00Z" data-provider="getAmazonTestData" finished-at="2019-03-26T13:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[netw]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.888889999E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jlkjljlk@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ijk9878]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.NewRegistrationPageTest@7085bdee]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-26T13:54:01Z" finished-at="2019-03-26T13:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.testcases.NewRegistrationPageTest -->
+      <class name="com.amazon.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@3fee9989]" name="setup" is-config="true" duration-ms="82919" started-at="2019-03-26T13:56:06Z" finished-at="2019-03-26T13:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateUsernameLabelTest()[pri:1, instance:com.amazon.qa.testcases.LoginPageTest@3fee9989]" name="validateUsernameLabelTest" duration-ms="47" started-at="2019-03-26T13:57:29Z" finished-at="2019-03-26T13:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsernameLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.LoginPageTest@3fee9989]" name="tearDown" is-config="true" duration-ms="67" started-at="2019-03-26T13:57:29Z" finished-at="2019-03-26T13:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.testcases.LoginPageTest -->
+    </test> <!-- Amazonpomexample -->
+  </suite> <!-- pomexample -->
+</testng-results>
