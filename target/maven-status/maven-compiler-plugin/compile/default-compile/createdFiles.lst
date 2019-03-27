@@ -1,0 +1,8 @@
+com\amazon\qa\pages\SignInPage.class
+com\amazon\qa\pages\HomePage.class
+com\amazon\qa\pages\LoginPage.class
+com\amazon\qa\pages\YourAmazonPage.class
+com\amazon\qa\base\TestBase.class
+com\amazon\qa\pages\NewRegistrationPage.class
+com\amazon\qa\TestUtility\TestUtil.class
+com\amazon\qa\TestUtility\WebEventListener.class
